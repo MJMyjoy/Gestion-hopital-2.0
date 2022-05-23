@@ -9,7 +9,7 @@ def enreg_docteur(nom, pnom, prenom, tel, special):
         docteur.append(pnom)
         docteur.append(prenom)
         docteur.append(tel)
-        if len(list_patients) > 0:
+        if len(list_docteurs) > 0:
             for i in range (len(list_docteurs)):
                 num_mat = random.randint(10000000, 100000000)
                 while num_mat == list_docteurs[i][4]:
